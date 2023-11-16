@@ -8,13 +8,11 @@ import nature from "../images/nature.jpg";
 import solo from "../images/solo.jpg";
 import review1 from "../images/review1.jpg";
 import review2 from "../images/review2.jpg";
-import video1 from "../videos/video1.MP4";
-import video2 from "../videos/video2.MP4";
-import video3 from "../videos/video3.MP4";
+
 import "../css/aboutClub.css";
 import { SlArrowRight, SlArrowLeft } from "react-icons/sl";
 import {useState} from "react";
-import ReactPlayer from "react-player";
+
 
 
 
