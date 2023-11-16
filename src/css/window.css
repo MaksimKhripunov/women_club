@@ -1,0 +1,54 @@
+
+@media screen and (max-width: 1000px) {
+    .window{
+        width: 100%;
+        background: rgba(73, 73, 73, 0.7);
+        position: relative;
+        overflow: hidden;
+        animation: window 0.25s forwards cubic-bezier(0.12, 0, 0.39, 0);
+    }
+
+    .window p{
+        margin: 10px;
+        font-size: 20px;
+        padding: 1px;
+        text-align: center;
+        font-family: KazimirText, Arial, sans-serif;
+    }
+    .window a{
+        color: white;
+        position: relative;
+        cursor: pointer;
+        line-height: 1;
+        text-decoration: none;
+    }
+    .window a:after {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: white;
+        content: "";
+        opacity: 0;
+        transition: opacity 400ms, transform 400ms;
+    }
+
+    .window a:hover:after,
+    .window a:focus:after {
+        width: 100%;
+        opacity: 1;
+        transform: translate3d(0, 0.2em, 0);
+    }
+}
+
+
+@keyframes window {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 150px;
+    }
+}
+

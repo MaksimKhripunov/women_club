@@ -1,0 +1,163 @@
+.fullContainer{
+    background: rgb(238, 238, 239);
+
+}
+
+.aboutClub, .aboutClasses, .twoPicCont, .onePicCont{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.aboutClubCont, .ourClassesCont{
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    margin: 50px;
+}
+
+.aboutClubCont .aboutClubHeader, .ourClassesCont .ourClassesHeader{
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.aboutClubCont p{
+    margin-bottom: 100px;
+}
+.ourClassesCont p{
+      margin-bottom: 20px;
+}
+
+.twoPic{
+    text-align: center;
+    width: 100%;
+}
+.twoPic .imageTwoPicFirst,.twoPic .imageTwoPicSecond{
+    width: 49%;
+    height: 100%;
+}
+
+.twoPic .imageTwoPicFirst{
+    margin-right: 2%;
+}
+
+.picContainer{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
+
+.picCont{
+    width: 65%;
+    margin-bottom: 100px;
+}
+
+.picCont .points{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+}
+.points .circleActive {
+    border: 0.18em solid black;
+    background: black;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 1em;
+    width: 1em;
+}
+
+
+.points .circle {
+    border: 0.18em solid black;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 1em;
+    width: 1em;
+}
+/*.points .circle:hover {
+   background: black;
+}*/
+
+.onePic{
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+    margin-top: 2%;
+}
+
+.onePic .imageCont{
+    width: 100%;
+    margin-right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    -webkit-overflow-scrolling: touch;
+}
+
+.imageCont .react-player{
+
+}
+
+.onePic .imageOnePic{
+    width: 100%;
+}
+
+.onePic .imageOnePicLonger{
+    width: 56%;
+   
+    flex: 0 0 auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+.onePic .buttonLeft{
+    position: absolute;
+}
+
+.onePic .buttonRight{
+    position: absolute;
+    text-align: right;
+    width: 65%;
+}
+
+.buttonLeft .button{
+    transform: translate(-3.5em,0);
+    height: 3em;
+    width: 3em;
+
+}
+.buttonRight .button{
+    transform: translate(3.5em,0);
+    height: 3em;
+    width: 3em;
+}
+.buttonRight .button:hover,
+.buttonLeft .button:hover{
+    color: grey;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+
+

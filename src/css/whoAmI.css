@@ -1,0 +1,30 @@
+.whoAmI{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 190px;
+}
+
+.whoAmI .helloText{
+    margin: 0 0 30px 0;
+    width: 350px;
+}
+
+.whoAmI .helloText p{
+    padding: 10px 50px 10px 20px;
+    font-size: 18px;
+    font-family: KazimirText, Arial, sans-serif;
+}
+
+.whoAmI .helloText .helloTxt{
+    font-size: 20px;
+    font-weight: bold;
+}
+.myImage .myPhoto{
+    padding-top: 10px;
+    width: 400px;
+    height: 600px;
+}

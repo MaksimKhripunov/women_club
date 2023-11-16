@@ -1,0 +1,59 @@
+.aboutUs{
+    justify-content: center;
+    display: flex;
+}
+.head{
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+    margin: 50px;
+}
+.head p{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.head .aboutUsHeader{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.row{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.row .column {
+    text-align: center;
+    margin: 20px;
+}
+
+.row .column p{
+    text-align: left;
+
+}
+.row .column{
+    width: 500px;
+
+}
+.row .column .image{
+    width: 100%;
+}
+
+.row .column .imagesHeader{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.row .column p{
+    font-size: 1em;
+
+}
+
+
+
+
+
